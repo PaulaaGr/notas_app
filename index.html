@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Notas</title>
-    <link rel="stylesheet" href="css/page.css">
-    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="CSS/page.css">
+    <link rel="stylesheet" href="CSS/modal.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
                     <tr>
                         <td>1</td>
                         <td>Entrega 1</td>
-                        <td>5</td>
+                        <td>5.0</td>
                         <td>
                             <button>Modificar</button>
                             <button>Eliminar</button>
@@ -38,24 +38,23 @@
         <article class="promedio-content">
             <p>Su promedio es: 5</p>
             <br>
-            <h2>Felicitaciones aprobó la materia</h2>
+            <h2>Felicitaciones, aprobó la materia</h2>
         </article>
     </section>
-    <section class="modal-content">
+    <section class="modal-content close-modal">
         <article class="form-content">
-
-            <button class="cerrar-btn">x</button>
-            <h2>Crear/modificar</h2>
+            <button class="cerrar-btn">X</button>
+            <h2>Crear/Modificar</h2>
             <form>
-                <div>
-                    <label">Nombre de la actividad</label>
-                        <input type="text" name="actividad">
+                <div class="input-content marg-botton-16">
+                    <label>Nombre de la actividad</label>
+                    <input type="text" name="Actividad">
                 </div>
-                <div>
-                    <label">Nota: </label>
-                        <input type="number" name="nota">
+                <div class="input-content marg-botton-16">
+                    <label>Nota</label>
+                    <input type="text" name="nota">
                 </div>
-                <div>
+                <div class="button-content">
                     <button type="button">Aceptar</button>
                 </div>
             </form>
